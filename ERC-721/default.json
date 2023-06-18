@@ -1,0 +1,34 @@
+[
+  {
+    "config_name": "contract_name",
+    "field_type": "text_single_line",
+    "field_label": "Your contract name",
+    "field_placeholder": "Enter name",
+    "default_value": "MyNftContract",
+    "validations": ["required"]
+  },
+  {
+    "config_name": "contract_symbol",
+    "field_type": "text_single_line",
+    "field_label": "Your contract symbol",
+    "field_placeholder": "Enter symbol",
+    "default_value": "MNC",
+    "validations": ["required"]
+  },
+  {
+    "config_name": "base_uri",
+    "field_type": "text_single_line",
+    "field_label": "Your base URI",
+    "field_placeholder": "Enter base URI",
+    "default_value": "https://example.com/",
+    "validations": ["required"]
+  },
+  {
+    "config_name": "security_email",
+    "field_type": "text_single_line",
+    "field_label": "Your security contact email",
+    "field_placeholder": "Enter email",
+    "default_value": "contact@example.com",
+    "validations": ["required"]
+  }
+]
